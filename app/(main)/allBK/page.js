@@ -97,7 +97,7 @@ export default async function AllBooks() {
                             className="w-35 h-48 object-cover rounded-lg shadow-md absolute top-[-100px]"
                         />
                         <button className="absolute top-[120px] left-2 px-2 py-1 text-white bg-blue-500 rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-                            <Link href={""} className="text-xs">READ FULL ARTICLE</Link>
+                            <Link href={`/bookDetail/${getBook.id}`} className="text-xs">READ FULL ARTICLE</Link>
                         </button>
                     </div>
                     <div className="mt-4 pl-[150px]">
